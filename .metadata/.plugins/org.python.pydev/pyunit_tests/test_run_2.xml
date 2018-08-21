@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 2" tests="0" total_time="Finished in: 0.00 secs."/>
+<test location="E:/python/python-googlesheet/google sheet/google-sheet/sheet.py" status="error" test="sheet" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "E:\python\python-googlesheet\google sheet\google-sheet\sheet.py", line 19, in <module>
+    creds = ServiceAccountCredentials.from_json_keyfile_name('Mine.json', scope)
+  File "C:\Users\admin\Anaconda3\lib\site-packages\oauth2client\service_account.py", line 219, in from_json_keyfile_name
+    with open(filename, 'r') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'Mine.json'
+ERROR: Module: sheet could not be imported (file: E:/python/python-googlesheet/google sheet/google-sheet/sheet.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="google sheet google-sheet"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>
